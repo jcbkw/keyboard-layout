@@ -1,0 +1,66 @@
+
+body {
+    margin:15px;
+    padding: 0px;
+    background-color: dimgrey;
+    line-height: 0px;
+}
+
+div .key {
+    display: inline-block;
+    width: 92px;
+    height: 61px;
+    background-color: #444444;
+    color: white;
+    margin: 1px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    /* Negative margin
+
+You can scoot the elements back
+into place with negative 4px of margin
+(may need to be adjusted based on font
+size of parent). Apparently this is problematic
+in older IE (6 & 7), but if you don't care about those browsers at
+least you can keep the code formatting clean.*/
+    margin-right: -5px;
+}
+
+div .key:hover {
+
+background-color: #888888;
+
+}
+
+div .special {
+    width: auto;
+}
+
+div .spacebar {
+    width:480px;
+    /*margin-right: 6px;*/
+}
+
+.keyboard {
+    width: 1300px;
+}
+
+.row {
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+
+}
+
+div .third-row {
+    text-align: center;
+    margin-right:25px;
+}
+div .top-row {
+    margin-right:10px;
+}
+
+div .arrow {
+ width:25px;
+}
