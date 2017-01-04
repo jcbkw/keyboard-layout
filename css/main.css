@@ -1,6 +1,6 @@
 
 body {
-    margin:15px;
+    margin: 15px;
     padding: 0px;
     background-color: dimgrey;
     line-height: 0px;
@@ -8,7 +8,7 @@ body {
 
 div .key {
     display: inline-block;
-    width: 92px;
+    width: 85px;
     height: 61px;
     background-color: #444444;
     color: white;
@@ -16,6 +16,7 @@ div .key {
     padding: 5px;
     border: 1px solid black;
     text-align: center;
+    position: relative;
     /* Negative margin
 
 You can scoot the elements back
@@ -28,18 +29,26 @@ least you can keep the code formatting clean.*/
 }
 
 div .key:hover {
-
 background-color: #888888;
-
 }
 
 div .special {
-    width: auto;
+    width: 180px;
 }
 
 div .spacebar {
-    width:480px;
-    /*margin-right: 6px;*/
+    width: 578px;
+}
+
+div .fn{
+    position: absolute;
+    font-size: 12px;
+    top: 0;
+    line-height: 15px;
+}
+
+div.return {
+    width: 165px;
 }
 
 .keyboard {
@@ -50,17 +59,15 @@ div .spacebar {
     text-align: center;
     font-size: 25px;
     line-height: 60px;
+}
 
+div .top-row {
+    margin-right: 15px;
 }
 
 div .third-row {
-    text-align: center;
-    margin-right:25px;
+    margin-right: 18px;
 }
-div .top-row {
-    margin-right:10px;
-}
-
-div .arrow {
- width:25px;
+div .last-row {
+    margin-right: 18px;
 }
